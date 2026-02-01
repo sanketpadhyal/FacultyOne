@@ -1,5 +1,7 @@
 # FacultyOne
 
+<img src="logo.png" alt="Logo" width="70" />
+
 FacultyOne is a secure academic cloud platform built exclusively for educators.  
 It enables professors and faculty members to store, manage, and access teaching materials seamlessly — anytime, anywhere, including live classroom environments.
 
