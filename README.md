@@ -9,9 +9,13 @@ It enables professors and faculty members to store, manage, and access teaching 
 
 ## 🚧 Project Status: Under Deep Development
 
-FacultyOne is currently in **deep and active development**.  
-Core features, architecture, and security systems are being designed and implemented.  
-The platform is **not production-ready yet** and is evolving rapidly.
+FacultyOne is currently in active and intensive development.  
+Core features, system architecture, and security mechanisms are being built and refined.  
+
+This project is not production-ready yet and is evolving rapidly with frequent updates.
+
+Stay tuned for major improvements and new features.
+
 
 ---
 
