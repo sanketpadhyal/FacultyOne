@@ -129,4 +129,7 @@ GitHub: `@sanketpadhyal`
 
 ---
 
-**FacultyOne — One secure cloud for every educator.**
+### 📅 Project Information
+Created: Jan 31, 2026
+
+---
