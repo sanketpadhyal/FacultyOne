@@ -1,118 +1,154 @@
 # FacultyOne
 
-<img src="logo.13876e7cd1230206da5e.png" alt="Logo" width="130" />
+<img src="logo.13876e7cd1230206da5e.png" alt="FacultyOne Logo" width="140"/>
 
-FacultyOne is a secure academic cloud platform built exclusively for educators.  
-It enables professors and faculty members to store, manage, and access teaching materials seamlessly — anytime, anywhere, including live classroom environments.
+**Secure Academic Cloud Platform for Educators**
 
----
-
-## 🚧 Project Status: Under Deep Development
-
-FacultyOne is currently in active and intensive development.  
-Core features, system architecture, and security mechanisms are being built and refined.  
-
-This project is not production-ready yet and is evolving rapidly with frequent updates.
-
-Stay tuned for major improvements and new features.
-
+🌐 Live Website: https://facultyone.cloud
 
 ---
 
-## 🚀 Overview
+## 🚀 About FacultyOne
 
-FacultyOne addresses a common challenge in education:  
-fragmented files, unsafe storage, and difficulty accessing teaching materials across devices and classrooms.
+FacultyOne is a secure academic cloud platform built exclusively for educators.
 
-The platform provides every verified educator with a **personal academic cloud** to securely store and organize PPTs, lecture notes, PDFs, and other academic resources — all in one place.
+It enables verified faculty members to store, manage, and access teaching materials from any device — including live classroom systems, projectors, and smart boards.
 
----
+The platform eliminates unsafe practices like USB drives, shared logins, and personal cloud usage on public systems by introducing:
 
-## 🎯 Intended Users
-
-- Professors & Lecturers  
-- Teachers & Academic Staff  
-- Educational Institutions  
-- Faculty using smart boards, projectors, or shared classroom systems  
+• One-time classroom access tokens  
+• Encrypted cloud storage  
+• Session-based secure access  
 
 ---
 
-## ✨ Planned & In-Progress Features
+## 🎯 Why FacultyOne?
+
+Educators often face:
+
+- Carrying pendrives  
+- Logging into personal drives on public PCs  
+- Emailing files to themselves  
+- Data leaks and account risk  
+
+FacultyOne solves this with:
+
+✅ Secure cloud storage  
+✅ Temporary classroom sessions  
+✅ Auto-expiring access tokens  
+✅ Verified educator-only access  
+
+---
+
+## ✨ Key Features
 
 ### ☁️ Personal Academic Cloud
-Each registered educator will receive a dedicated cloud space for academic materials.
+Private storage for each approved educator.
 
-### 📂 Smart File Organization
-Files can be organized by subject, semester, course, or topic for quick access during lectures.
+### 🔑 One-Time Classroom Access
+Generate secure tokens to open files on classroom systems without revealing login credentials.
 
-### ⚡ Fast Upload & Instant Access
-Access teaching materials from:
-- Laptops
-- Smart boards
-- Classroom systems
-- Personal devices
+### 📂 Smart File Management
+Organize resources by subject, course, or semester.
 
-### 🔐 Secure & Encrypted Storage
-All stored data will be protected with encryption and strict access control.
+### 🔐 Encrypted File Access
+Files are accessed via signed URLs and protected sessions.
 
-### 🧑‍🏫 Faculty-Only Access
-Only verified educators will be allowed. Every account will go through an approval process.
+### 🧑‍🏫 Approval-Based Platform
+Only verified educators are allowed.
 
-### 🔑 Temporary Classroom Login (In Design)
-Educators will be able to generate **temporary, limited-use login credentials** to access their materials on classroom systems or smart boards — without exposing their main account credentials.
-
-### 🧾 Approval-Based System
-Accounts will be reviewed before activation to maintain platform trust and quality.
+### ⚡ Optimized for Classrooms
+Fast, responsive, and works smoothly on PCs, smart boards, and mobiles.
 
 ---
 
-## 📝 Planned Workflow
+## 📝 How It Works
 
 1. Educator registers on FacultyOne  
-2. Account goes through verification & approval  
-3. After approval, the educator can:
-   - Upload teaching resources
-   - Organize academic files
-   - Access materials from any device
-4. Temporary classroom login credentials can be generated for live sessions  
-5. Temporary credentials expire automatically after use  
+2. Admin reviews & approves account  
+3. Educator uploads academic materials  
+4. Temporary classroom token is generated  
+5. Token is used once and auto-expires  
+6. Files open securely in session view  
 
 ---
 
-## 🎁 Free Storage (Planned)
+## 💾 Storage Plans
 
-- 500 MB free cloud storage for approved accounts  
-- No credit card required  
-- Data remains private and secure  
+### 🆓 Basic Plan (Free)
+- 100 MB secure academic cloud storage  
+- Private & encrypted  
 
----
+### ⭐ Premium Plan (Selected Educators)
+- 600 MB cloud storage  
+- Priority access & future upgrades  
 
-## 🛠️ Tech Stack (Planned / In Progress)
-
-- Frontend: React  
-- Styling: Custom modern UI with CSS  
-- Backend: In development  
-- Authentication: Secure credential-based system  
-- Storage: Cloud-based file storage  
-- Security: Encrypted access & role-based permissions  
+> Storage limits can be increased anytime as cloud infrastructure scales.
 
 ---
 
-## 🗺️ Development Roadmap
+## 📊 Scalability & Performance
 
-- Core authentication & approval system  
-- File upload and cloud storage  
-- Smart file organization  
-- Temporary classroom login system  
-- Institution-level access (future)  
-- Student view-only access (future)  
+FacultyOne is currently running smoothly on free-tier cloud services and is already capable of handling:
+
+✅ 1,000+ users easily  
+✅ Scalable up to 5,000+ users with upgraded cloud plans  
+✅ Token-based sessions for high security & performance  
+
+Once premium storage is enabled, the system can scale massively without architecture changes.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React  
+- Custom modern CSS UI  
+
+**Authentication**
+- Firebase Auth  
+
+**Database & Storage**
+- Supabase  
+
+**Security**
+- Session tokens  
+- Signed file URLs  
+- Role-based access  
+
+---
+
+## 🔐 Admin Backend (Available)
+
+FacultyOne includes a dedicated **Admin Portal** for authorized administrators:
+
+Admins can:
+
+- Approve / reject educators  
+- Manage user plans  
+- Monitor platform stats  
+- Control storage limits  
+- Review system health  
+
+This ensures platform security, trust, and controlled growth.
+
+---
+
+## 🗺️ Roadmap
+
+- Institution dashboards  
+- Student view-only sessions  
+- Larger storage tiers  
+- Mobile app  
+- Advanced analytics  
 
 ---
 
 ## 🤝 Contributions
 
-FacultyOne is in an early and active development phase.  
-Ideas, feedback, and discussions are welcome once the core system stabilizes.
+FacultyOne is under active development.
+
+Feedback, feature ideas, and suggestions are welcome!
 
 ---
 
@@ -125,11 +161,10 @@ MIT License
 ## 👨‍💻 Author
 
 Developed by **Sanket Padhyal**  
-GitHub: `@sanketpadhyal`
+GitHub: https://github.com/sanketpadhyal  
 
 ---
 
-### 📅 Project Information
-Created: Jan 31, 2026
+📅 Project Started: January 31, 2026  
+🚀 Current Status: Fully working & actively scaling  
 
----
