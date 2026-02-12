@@ -65,11 +65,11 @@ Fast, responsive, and works smoothly on PCs, smart boards, and mobiles.
 ## 📝 How It Works
 
 1. Educator registers on FacultyOne  
-2. Admin reviews & approves account  
-3. Educator uploads academic materials  
-4. Temporary classroom token is generated  
-5. Token is used once and auto-expires  
-6. Files open securely in session view  
+2. Admin reviews & approves account (pending requests help manage storage and ensure quality)
+3. Educator uploads academic materials 
+4. Educator manually generates up to 5 temporary classroom tokens in their dashboard 
+5. The educator uses a token to log into a classroom session, and after successful login, the token is immediately invalidated and disappears from their token list
+6. Files open securely in the classroom session and the session is one-time use only
 
 ---
 
