@@ -58,18 +58,18 @@ Files are accessed via signed URLs and protected sessions.
 Only verified educators are allowed.
 
 ### ⚡ Optimized for Classrooms
-Fast, responsive, and works smoothly on PCs, smart boards, and mobiles.
+Fast, responsive, and works smoothly on PCs, smart boards, tablets, and mobile devices.
 
 ---
 
 ## 📝 How It Works
 
 1. Educator registers on FacultyOne  
-2. Admin reviews & approves account (pending requests help manage storage and ensure quality)
-3. Educator uploads academic materials 
-4. Educator manually generates up to 5 temporary classroom tokens in their dashboard 
-5. The educator uses a token to log into a classroom session, and after successful login, the token is immediately invalidated and disappears from their token list
-6. Files open securely in the classroom session and the session is one-time use only
+2. Admin reviews & approves account  
+3. Educator uploads academic materials  
+4. Educator generates up to 5 temporary classroom access tokens  
+5. Token is used once to open a secure classroom session and is immediately invalidated  
+6. Files open securely within the session and cannot be reused  
 
 ---
 
@@ -83,64 +83,80 @@ Fast, responsive, and works smoothly on PCs, smart boards, and mobiles.
 - 600 MB cloud storage  
 - Priority access & future upgrades  
 
-> Storage limits can be increased anytime as cloud infrastructure scales.
+> Storage limits can be increased as infrastructure scales.
 
 ---
 
 ## 📊 Scalability & Performance
 
-FacultyOne is currently running smoothly on free-tier cloud services and is already capable of handling:
+FacultyOne is fully optimized for production use and currently running smoothly on free-tier cloud infrastructure.
 
-✅ 1,000+ users easily  
-✅ Scalable up to 5,000+ users with upgraded cloud plans  
-✅ Token-based sessions for high security & performance  
+Current capacity:
 
-Once premium storage is enabled, the system can scale massively without architecture changes.
+✅ 1,000+ users supported easily  
+✅ Scalable to 5,000+ users with upgraded cloud resources  
+✅ Secure token-based classroom sessions  
+
+The platform architecture is designed to scale massively without core changes.
+
+---
+
+## 🔒 Security Model
+
+- Firebase authentication for verified user access  
+- Supabase secure storage integration  
+- Session-based access control  
+- Signed time-limited file URLs  
+- Role-based admin permissions  
+
+> Currently the storage bucket is operating in public mode for early-stage deployment, but files remain protected through signed expiring URLs and secure session layers.
+
+> Once user volume grows and initial funding is arranged, the storage system will be migrated to fully private backend-controlled buckets with no architectural changes required.
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+### Frontend
 - React  
-- Custom modern CSS UI  
+- Custom modern responsive UI  
 
-**Authentication**
+### Authentication
 - Firebase Auth  
 
-**Database & Storage**
+### Database & Storage
 - Supabase  
 
-**Security**
-- Session tokens  
-- Signed file URLs  
-- Role-based access  
+### Security
+- Token-based sessions  
+- Signed file access  
+- Role-based permissions  
 
 ---
 
-## 🔐 Admin Backend (Available)
+## 🔐 Admin Backend
 
-FacultyOne includes a dedicated **Admin Portal** for authorized administrators:
+FacultyOne includes a dedicated Admin Portal.
 
-Admins can:
+Administrators can:
 
-- Approve / reject educators  
+- Approve or reject educator accounts  
 - Manage user plans  
-- Monitor platform stats  
 - Control storage limits  
-- Review system health  
+- Monitor platform activity  
+- Review system performance  
 
-This ensures platform security, trust, and controlled growth.
+This ensures platform trust, security, and controlled scaling.
 
 ---
 
 ## 🗺️ Roadmap
 
-- Institution dashboards  
-- Student view-only sessions  
-- Larger storage tiers  
-- Mobile app  
-- Advanced analytics  
+- Institution-level dashboards  
+- Student view-only classroom sessions  
+- Expanded storage tiers  
+- Mobile application  
+- Advanced analytics and reporting  
 
 ---
 
@@ -148,7 +164,7 @@ This ensures platform security, trust, and controlled growth.
 
 FacultyOne is under active development.
 
-Feedback, feature ideas, and suggestions are welcome!
+Feedback, ideas, and contributions are welcome.
 
 ---
 
@@ -166,5 +182,4 @@ GitHub: https://github.com/sanketpadhyal
 ---
 
 📅 Project Started: January 31, 2026  
-🚀 Current Status: Fully working & actively scaling  
-
+🚀 Current Status: Production ready, fully functional, and actively scaling  
