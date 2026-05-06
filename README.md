@@ -2,7 +2,7 @@
 
 **Secure Academic Cloud Platform for Educators**
 
-<img src="logo.13876e7cd1230206da5e.png" alt="FacultyOne Logo" width="140"/>
+<img src="logo.13876e7cd1230206da5e.png" alt="FacultyOne Logo" width="141"/>
 
 🌐 Live Website: [https://facultyone.cloud](https://facultyone.cloud)
 
