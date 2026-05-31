@@ -8,8 +8,7 @@
 
 ---
 
-> 🚀 **Latest Update:** FacultyOne is now running on **Google Cloud infrastructure** for high reliability and zero downtime issues.
-> 💡 **Upcoming Upgrade:** The **Basic (Free) plan will be increased to 600 MB storage** in future updates.
+> 📤 **Latest Update:** All bugs and problems related to **uploading documents** have been successfully fixed and optimized for high reliability and flawless performance.
 
 ---
 
